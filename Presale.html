@@ -6,9 +6,9 @@
     <title>$ANG Token Presale</title>
     <style>
         body {
-            background-color: white;
+            background-color: black;  /* Changed background color to black */
             font-family: Arial, sans-serif;
-            color: gold;
+            color: blue;  /* Changed text color to blue */
             margin: 0;
             padding: 0;
             text-align: center;
@@ -17,7 +17,7 @@
             margin: 20px;
         }
         .button {
-            background-color: gold;
+            background-color: blue;  /* Button background set to blue */
             color: white;
             border: none;
             padding: 15px 25px;
@@ -27,7 +27,26 @@
             cursor: pointer;
         }
         .button:hover {
-            background-color: darkgoldenrod;
+            background-color: darkblue;  /* Darker blue on hover */
+        }
+        /* Styling for navigation menu */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .nav-item {
+            color: blue;
+            margin: 0 15px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .nav-item:hover {
+            color: darkblue;  /* Change color on hover */
         }
     </style>
 </head>
@@ -38,30 +57,17 @@
     <p><strong>Minimum Purchase Order:</strong> $50 SUI</p>
     <p><strong>Listing Range:</strong> $0.01 - $0.1</p>
     <p>You will receive your $ANG tokens automatically after purchasing.</p>
-    <p>funds raised will be used for adding liquidity and listing in CEXS:</p>
+    <p>Funds raised will be used for adding liquidity and listing in CEXS:</p>
     <p>Click the button below to join our official Telegram community and get the presale wallet:</p>
     <a href="https://t.me/ANGELUSD_COMMUNITY" target="_blank" class="button">Join Our Telegram</a>
-<nav class="bottom-nav">
-        <a href="home.html" class="nav-item">
-            <i class="fas fa-home"></i>
-            <span>HOME</span>
-        </a>
-        <a href="Presale.html" class="nav-item">
-            <i class="fas fa-trophy"></i>
-            <span>PRESALE</span>
-        </a>
-        <a href="invite.html" class="nav-item">
-            <i class="fas fa-user-friends"></i>
-            <span>FRIENDS</span>
-        </a>
-        <a href="task.html" class="nav-item">
-            <i class="fas fa-tasks"></i>
-            <span>TASKS</span>
-        </a>
-        <a href="mining.html" class="nav-item">
-            <i class="fas fa-wallet"></i>
-            <span>MINING</span>
-        </a>
-</nav>
+    
+    <!-- Navigation Menu -->
+    <nav class="bottom-nav">
+        <a href="home.html" class="nav-item">HOME</a>
+        <a href="Presale.html" class="nav-item">PRESALE</a>
+        <a href="invite.html" class="nav-item">FRIENDS</a>
+        <a href="task.html" class="nav-item">TASKS</a>
+        <a href="mining.html" class="nav-item">MINING</a>
+    </nav>
 </body>
 </html>
